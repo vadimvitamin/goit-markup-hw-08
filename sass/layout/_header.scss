@@ -34,7 +34,11 @@
     border-radius: 2px;
   }
   
-  
+  // .contacts {
+  //   @media screen and (max-width:767px) {
+  //     display: none;
+  //   }
+  // }
   .contacts {
     display: flex;
     justify-content: flex-end;
@@ -67,7 +71,11 @@
   .contacts__link:focus {
     color: var(--blue-text-color);
   }
-  
+  .contacts__link {
+    @media screen and (max-width:767px) {
+      display: none;
+    }
+  }
   .line {
     border-bottom: 1px solid #ECECEC;
   }
@@ -87,7 +95,12 @@
     margin-left: 93px;
     display: flex;
   }
-
+.nav-list {
+  @media screen and (max-width:767px){
+    display: none;
+  }
+  
+}
   .nav-list__navigation:not(:last-child) {
     margin-right: 50px;
   }

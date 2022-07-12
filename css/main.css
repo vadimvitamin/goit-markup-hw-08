@@ -496,6 +496,24 @@ img {
   padding-right: 15px;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 .page-body {
   background-color: var(--white-text-color);
   font-family: "Roboto";
@@ -771,6 +789,16 @@ img {
   color: var(--first-text-color);
 }
 
+.work-titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: var(--first-text-color);
+}
+
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -909,6 +937,16 @@ img {
 .workers__element {
   flex-basis: calc(25% - 30px);
   margin-left: 30px;
+}
+
+.features {
+  padding-bottom: 94px;
+}
+
+@media screen and (max-width: 1199px) {
+  .features {
+    display: none;
+  }
 }
 
 .work-list {

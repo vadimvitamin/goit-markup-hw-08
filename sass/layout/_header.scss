@@ -104,3 +104,25 @@
   .nav-list__navigation:not(:last-child) {
     margin-right: 50px;
   }
+  .burger-menu.is-open {
+    @media screen and (min-width: 768px) {
+      width: 768px;
+      display: none;
+  }
+}
+  .burger-menu {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .burger-menu .menu {
+   display: none;
+  }
+  .burger-menu.is-open .menu {
+    display: block;
+  }
+  .burger-menu.is-open .close {
+    display: none;
+  }

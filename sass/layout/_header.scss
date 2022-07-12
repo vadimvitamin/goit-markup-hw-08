@@ -117,12 +117,12 @@
     border: none;
     background-color: transparent;
   }
-  .burger-menu .menu {
-   display: none;
-  }
-  .burger-menu.is-open .menu {
+  .burger-menu.is-open .close {
     display: block;
   }
-  .burger-menu.is-open .close {
+  .burger-menu.close .is-open {
     display: none;
+  }
+  .close.is-open .menu {
+    display: block;
   }

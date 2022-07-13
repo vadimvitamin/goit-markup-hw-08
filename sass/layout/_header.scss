@@ -39,7 +39,11 @@
     margin-left: auto;
     align-items: center;
   }
-  
+  .contacts {
+    @media screen and (max-width:767px) {
+      display: none;
+    }
+  }
   .contacts .contacts__item {
     margin-left: 50px;
   }
@@ -86,7 +90,11 @@
     margin-left: 93px;
     display: flex;
   }
-
+.nav-list {
+  @media screen and (max-width:767px) {
+    display: none;
+  }
+}
   .nav-list__navigation:not(:last-child) {
     margin-right: 50px;
   }

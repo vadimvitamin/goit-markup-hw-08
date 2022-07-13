@@ -39,6 +39,12 @@
   align-items: center;
 }
 
+@media screen and (max-width: 767px) {
+  .contacts {
+    display: none;
+  }
+}
+
 .contacts .contacts__item {
   margin-left: 50px;
 }
@@ -85,6 +91,12 @@ header > .container {
 .nav-list {
   margin-left: 93px;
   display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
 }
 
 .nav-list__navigation:not(:last-child) {

@@ -52,6 +52,11 @@
     margin-bottom: 50px;
     color: var(--first-text-color);
   }
+  .work-title {
+    @media screen and (max-width:1199px) {
+      display: none;
+    }
+  }
   .work-title-command {
     font-weight: 700;
     font-size: 36px;

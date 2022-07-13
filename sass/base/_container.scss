@@ -5,3 +5,9 @@
     padding-left: 15px;
     padding-right: 15px;
   } 
+
+  .section.container {
+    @media screen and (max-width:1199px) {
+      display: none;
+    }
+  }

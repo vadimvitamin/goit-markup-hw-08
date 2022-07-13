@@ -72,37 +72,21 @@
         color: #757575;
       }
 
-      // .workers {
-
-      // }
-      .workers__element {
-        @media screen and (min-width:768px) {
-          display: flex;
-          margin-left: -30px;
-          flex-wrap: wrap;
-        }
+      .workers {
+        display: flex;
+        margin-left: -30px;
+        flex-wrap: wrap;
       }
-    //   .workers__element {
-    //     @media screen and (max-width:480px) {
       
-    //   }
-    // }
       .workers__element {
         flex-basis: calc(100% / 4 - 30px);
         margin-left: 30px;
-      }
-      .features {
-        padding-bottom: 94px;
-      }
-      .features {
-        @media screen and (max-width:1199px) {
-          display: none;
-        }
       }
       .work-list {
         display: flex;
       margin-right: -30px;
       }
+      
       
       .work-list__projects {
         flex-basis: calc(100% / 3 - 30px);
@@ -131,24 +115,14 @@
         line-height: 1.17;
         align-self: center;
       }
-      .team {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-      }
+      
       
       .worker-container {
         padding-top: 94px;
         padding-bottom: 94px;
         background-color: #F5F4FA;
       }
-      .worker-container {
-        @media screen and (max-width:480px) {
-          width: 480px;
-        }
-      }
+
       .specifics {
         font-weight: 400;
         font-size: 14px;
@@ -159,8 +133,7 @@
 
 
       .general-list__spec-icon {
-        // width: 270px;
-        width: 100%;
+        width: 270px;
         height: 120px;
       background-color: #F5F4FA;
       border-radius: 4px;

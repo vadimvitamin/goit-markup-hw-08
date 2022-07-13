@@ -78,13 +78,28 @@
     background-color: var(--white-text-color);
   }
   
-  header > .container {
+  // header > .container {
+  //   display: flex;
+  //   justify-content: space-between;
+  // }
+  .header-container {
     display: flex;
     justify-content: space-between;
   }
   .site-nav {
     align-items: center;
     display: flex;
+  }
+  .site-nav {
+    @media screen and (max-width:1200px) {
+      width: 1200px;
+    }
+  }
+  .site-nav {
+    @media screen and (max-width:480px) {
+      width: 480px;
+      margin: 0;
+    }
   }
   .nav-list {
     margin-left: 93px;

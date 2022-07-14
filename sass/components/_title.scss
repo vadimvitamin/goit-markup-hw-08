@@ -35,6 +35,16 @@
     margin-bottom: 30px;
     color: var(--white-text-color);
   }
+  .title {
+    @media screen and (max-width:1199px) {
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 1.61;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+  }
   .specifics-title {
     font-weight: 700;
     font-size: 14px;

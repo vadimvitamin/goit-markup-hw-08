@@ -72,11 +72,20 @@
         color: #757575;
       }
 
-      .workers {
+      // .workers {
+      //   display: flex;
+      //   margin-left: -30px;
+      //   flex-wrap: wrap;
+      // }
+     .workers {
+      @media screen and (min-width:1200px) {
+        width: 1200px;
         display: flex;
         margin-left: -30px;
-        flex-wrap: wrap;
+        flex-wrap: wrap;        
+        align-items: center;
       }
+     }
       
       .workers__element {
         flex-basis: calc(100% / 4 - 30px);
@@ -152,8 +161,13 @@
       }
 
       .general-list {
-        display: flex;
-        margin-right: -30px;
+        // display: flex;
+        // margin-right: -30px;
+      }
+      .general-list {
+        @media screen and (min-width:480px) {
+          width: 480px;
+        }
       }
       .general-list__general {
         flex-basis: calc(100% / 4 - 30px);

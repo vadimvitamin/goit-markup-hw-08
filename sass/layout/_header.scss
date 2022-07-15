@@ -12,7 +12,7 @@
   }
   .nav-list__link {
     @media screen and (min-width:480px) {
-      width: 480px;
+     
     }
   }
   .nav-list__link:hover,
@@ -94,12 +94,18 @@
     justify-content: space-between;
   }
   .header-container {
-    @media screen and (min-width:480px) {
-      width: 480px;
+    @media screen and (min-width:768px) {
       display: flex;
-      justify-content: space-between;
+      align-items: center;
     }
   }
+  // .header-container {
+  //   @media screen and (min-width:480px) {
+  //     width: 480px;
+  //     display: flex;
+  //     justify-content: space-between;
+  //   }
+  // }
   .site-nav {
    @media screen and (max-width:767px) {
     align-items: center;
@@ -110,6 +116,9 @@
   .site-nav {
     @media screen and (min-width:1200px) {
       width: 1200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
   .site-nav {

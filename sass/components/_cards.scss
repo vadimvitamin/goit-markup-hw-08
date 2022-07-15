@@ -131,10 +131,18 @@
       
       
       .worker-container {
-        padding-top: 94px;
-        padding-bottom: 94px;
-        background-color: #F5F4FA;
-      }
+         @media screen and (min-width:1200px) {
+          width:1200px;
+          padding-top: 94px;
+          padding-bottom: 94px;
+          background-color: #F5F4FA;
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 15px;
+          padding-right: 15px;
+         }
+        }
+      
 
       .specifics {
         font-weight: 400;
@@ -161,8 +169,11 @@
       }
 
       .general-list {
-        // display: flex;
-        // margin-right: -30px;
+       @media screen and (min-width:1200px) {
+        width: 1200px;
+        display: flex;
+        margin-right: -30px;
+       }
       }
       .general-list {
         @media screen and (min-width:480px) {
@@ -170,8 +181,11 @@
         }
       }
       .general-list__general {
-        flex-basis: calc(100% / 4 - 30px);
-        margin-right: 30px;
+        @media screen and (min-width:1200px) {
+          width: 1200px;
+          flex-basis: calc(100% / 4 - 30px);
+          margin-right: 30px;
+        }
       }
       .general-list__general {
         width: 270px;

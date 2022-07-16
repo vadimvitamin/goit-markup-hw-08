@@ -160,7 +160,7 @@
 }
 
 .general-list__spec-icon {
-  width: 270px;
+  // width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -172,7 +172,7 @@
     width: 450px;
   }
   @media screen and (min-width:767px) {
-    width: 470px;
+    width: 354px;
     margin-top:10px;
   }
 
@@ -180,7 +180,7 @@
     width: 354px;
    display: flex;
    flex-wrap: wrap;
-   flex-basis: 50%;
+  //  flex-basis: 50%;
   }
 }
 .general-list__icon-box {
@@ -213,9 +213,9 @@
   @media screen and (min-width:480px) {
     width: 450px;
   }
-@media screen and (min-width:768) {
-  width: 354px;
-  margin: 15px;
+  @media screen and (min-width:768) {
+    width: 354px;
+    margin: 15px;
 }
 
   @media screen and (min-width: 1200px) {
@@ -226,7 +226,7 @@
  
 }
 .general-list__general {
-  width: 270px;
+  // width: 270px;
   justify-content: space-between;
   gap: 30px;
 }

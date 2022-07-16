@@ -6,9 +6,16 @@
 
   .section-padding-top {
     padding-top: 94px;
+    @media screen and (max-width:1199px) {
+      padding-top: 60px;
+      
+    }
   }
   .section {
     padding-bottom: 94px;
+   @media screen and (max-width:1199px) {
+    padding-bottom: 60px;
+   }
   }
 .general-section {
 @media screen and (min-width:1200px) {

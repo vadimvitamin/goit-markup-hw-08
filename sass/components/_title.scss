@@ -56,6 +56,9 @@
       width: 470px;
       text-align: center;
     }
+    @media screen and (min-width:768px) {
+      width: 354px;
+    }
   }
   .work-title {
     font-weight: 700;

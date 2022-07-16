@@ -157,6 +157,10 @@
     width: 470px;
     margin-bottom: 30px;
   }
+  @media screen and (min-width:768px) {
+    width: 354px;
+   margin-bottom: 10px;
+  }
 }
 
 .general-list__spec-icon {
@@ -172,15 +176,13 @@
     width: 450px;
   }
   @media screen and (min-width:767px) {
-    width: 354px;
-    margin-top:10px;
+    width: 450px;
   }
 
   @media screen and (min-width:768px) {
     width: 354px;
-   display: flex;
-   flex-wrap: wrap;
-  //  flex-basis: 50%;
+  //  display: flex;
+  //  flex-wrap: wrap;
   }
 }
 .general-list__icon-box {
@@ -189,6 +191,9 @@
 }
 
 .general-list {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-right: 0px;
   
   @media screen and (min-width: 480px) {
     width: 480px;
@@ -197,7 +202,6 @@
     width: 354px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -211,7 +215,7 @@
 .general-list__general {
 
   @media screen and (min-width:480px) {
-    width: 450px;
+    // width: 450px;
   }
   @media screen and (min-width:768) {
     width: 354px;

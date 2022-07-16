@@ -137,16 +137,19 @@
   margin: 0 auto;
   background-color: #C4C4C4;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-backround-hero.jpg);
-  padding-bottom: 200px;
-  padding-top: 200px;
+  padding-bottom: 118px;
+  padding-top: 118px;
   background-position: center;
 }
-
 @media screen and (min-width: 480px) {
-  .hero {
-    padding-bottom: 118px;
-    padding-top: 118px;
+  .hero .hero {
     background-position: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-bottom: 200px;
+    padding-top: 200px;
   }
 }
 
@@ -314,7 +317,6 @@ img {
   display: block;
   margin: 0 auto;
 }
-
 .buttons:hover,
 .buttons:focus {
   background-color: #188CE8;
@@ -864,6 +866,19 @@ img {
   align-items: center;
   justify-content: center;
 }
+@media screen and (min-width: 480px) {
+  .general-list__spec-icon {
+    width: 470px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .general-list__spec-icon {
+    width: 354px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+  }
+}
 
 .general-list__icon-box {
   width: 70px;
@@ -884,6 +899,11 @@ img {
   }
 }
 
+@media screen and (min-width: 768) {
+  .general-list__general {
+    width: 354px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .general-list__general {
     width: 1200px;
@@ -895,6 +915,7 @@ img {
 .general-list__general {
   width: 270px;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .work-section {

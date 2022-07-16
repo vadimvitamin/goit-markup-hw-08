@@ -48,6 +48,9 @@
     height: 50px;
     display: block;
     margin: 0 auto;
+  @media screen and (min-width:1199px) {
+  //  margin-bottom: 118px;
+  }
   }
   
   .buttons:hover,

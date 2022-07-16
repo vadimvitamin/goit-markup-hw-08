@@ -164,14 +164,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // @media screen and (min-width:480px) {
-  //   width: 470px;
-  // }
+  @media screen and (min-width:480px) {
+    width: 470px;
+  }
 
-  // @media screen and (min-width:768px) {
-  //   width: 354px;
-  //  flex-direction: row;
-  // }
+  @media screen and (min-width:768px) {
+    width: 354px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-basis: 50%;
+  }
 }
 .general-list__icon-box {
   width: 70px;
@@ -193,6 +195,10 @@
 }
 
 .general-list__general {
+@media screen and (min-width:768) {
+  width: 354px;
+}
+
   @media screen and (min-width: 1200px) {
     width: 1200px;
     flex-basis: calc(100% / 4 - 30px);
@@ -203,7 +209,7 @@
 .general-list__general {
   width: 270px;
   justify-content: space-between;
-  
+  gap: 30px;
 }
 
 .work-section {

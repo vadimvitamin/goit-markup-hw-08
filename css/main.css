@@ -525,6 +525,8 @@ img {
 
 @media screen and (min-width: 480px) {
   .client-logos {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     margin-bottom: 0;
     padding: 0;

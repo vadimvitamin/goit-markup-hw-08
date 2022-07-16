@@ -8,15 +8,34 @@
       url(../images/Img-backround-hero.jpg);
     padding-bottom: 200px;
     padding-top: 200px;
+    background-position: center;
   }
+  // .hero {
+  //  @media screen and (min-width:1200px) {
+  //   max-width: 1600px;
+  //   margin: 0 auto;
+  //   background-color: #C4C4C4;
+  //   background-image: linear-gradient(
+  //     rgba(47, 48, 58, 0.4), 
+  //     rgba(47, 48, 58, 0.4)),
+  //     url(../images/Img-backround-hero.jpg);
+  //   padding-bottom: 200px;
+  //   padding-top: 200px;
+  //   background-position: center;
+  //  }
+  // }
   
 .hero {
   @media screen and (min-width:480px) {
-   
+    padding-bottom: 118px;
+    padding-top: 118px;
+    background-position: center;
   }
 }
 .hero {
   @media screen and (min-width:768px) {
-    
+    // padding-bottom: 118px;
+    // padding-top: 118px;
+    // background-position: center;
   }
 }

@@ -52,6 +52,10 @@
     margin-bottom: 10px;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
+    @media screen and (max-width:767px) {
+      width: 470px;
+      text-align: center;
+    }
   }
   .work-title {
     font-weight: 700;

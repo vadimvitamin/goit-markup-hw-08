@@ -256,7 +256,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .general-section {
-    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -643,6 +642,12 @@ img {
   letter-spacing: 0.03em;
   color: var(--first-text-color);
 }
+@media screen and (max-width: 767px) {
+  .specifics-title {
+    width: 470px;
+    text-align: center;
+  }
+}
 
 .work-title {
   font-weight: 700;
@@ -852,8 +857,12 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  outline: 2px solid red;
-  outline-offset: -2px;
+}
+@media screen and (max-width: 767px) {
+  .specifics {
+    width: 470px;
+    margin-bottom: 30px;
+  }
 }
 
 .general-list__spec-icon {
@@ -866,9 +875,10 @@ img {
   align-items: center;
   justify-content: center;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .general-list__spec-icon {
     width: 470px;
+    margin-top: 10px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -902,6 +912,7 @@ img {
 @media screen and (min-width: 768) {
   .general-list__general {
     width: 354px;
+    margin: 15px;
   }
 }
 @media screen and (min-width: 1200px) {

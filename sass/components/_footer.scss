@@ -1,5 +1,11 @@
 .email-input {
-    margin-left: 93px;
+  flex-direction: column;
+  @media screen and (min-width:768px) {
+  justify-content: center;
+  }
+    @media screen and (min-width:1200px) {
+      margin-left: 93px;
+    }
   }
   .input-text {
     width: 358px;
@@ -11,17 +17,31 @@
     border-radius: 4px;
     padding: 0 16px;
     outline: transparent;
+    @media screen and (max-width:1199px) {
+      width: 450px;
+      margin-bottom: 20px;
+    }
   }
-
+.mobile-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media screen and (min-width:768px) {
+   flex-direction: column;
+  }
+}
   .page-footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;
     color: var(--white-text-color);
   }
-  
+  .footer-group-logo {
+    // display: flex;
+    // flex-wrap: wrap;
+  }
   .logo-footer {
-    font-family: 'raleway';
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19em;
@@ -31,6 +51,9 @@
     color: var(--blue-text-color);
     text-decoration: none;
     margin-bottom: 20px;
+    @media screen and (min-width:1200px) {
+     
+    }
   }
   
   .text-address {
@@ -39,6 +62,10 @@
     display: block;
     color: var(--white-text-color);
     margin-top: 20px;
+    @media screen and (max-width:1199px) {
+      display: block;
+    
+    }
   }
   
   .address {
@@ -51,6 +78,9 @@
     width: 231px;
     height: 21px;
     color: #FFFFFF;
+    @media screen and (max-width:1199px) {
+   justify-content: center;
+    }
   }
   
   .text-email {
@@ -66,6 +96,10 @@
     height: 21px;
     color: rgba(255, 255, 255, 0.6);
     transition : color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    // @media screen and (max-width: 1199px) {
+      // display: flex;
+      // justify-content: center;
+    //  }
   }
   
   .text-email {
@@ -86,7 +120,11 @@
     text-decoration: none;
     width: 231px;
     height: 21px;
-    color: rgba(255, 255, 255, 0.6)
+    color: rgba(255, 255, 255, 0.6);
+    @media screen and (min-width:480px) {
+      // display: flex;
+      // justify-content: space-around;
+     }
   }
   
   .text-telephone:hover,
@@ -96,7 +134,17 @@
   }
   .footer-container {
     display: flex;
-    align-items: baseline;
+    flex-wrap: wrap;
+    @media screen and (min-width:480px) {
+      justify-content: space-around;
+    }
+    @media screen and (min-width:768px) {
+   
+    }
+    @media screen and (min-width:1200px) {
+      justify-content: flex-start;
+      align-items: baseline;
+    }
   }
 
   .flex-container {
@@ -105,4 +153,7 @@
   
   .join {
     margin-left: 70px;
+    @media screen and  (max-width:1199px) {
+      margin-bottom: 60px;
+    }
   }

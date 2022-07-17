@@ -215,6 +215,11 @@ img {
   padding-bottom: 16px;
 }
 
+@media screen and (min-width: 320px) {
+  .div-logo {
+    margin-left: 50px;
+  }
+}
 @media screen and (max-width: 1199px) {
   .div-logo {
     display: flex;
@@ -429,6 +434,16 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+@media screen and (mmin-width: 320px) {
+  .footer-title-send {
+    margin-left: 10px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .footer-title-send {
+    margin-left: 15px;
+  }
+}
 @media screen and (max-width: 1199px) {
   .footer-title-send {
     display: flex;
@@ -518,6 +533,11 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 320px) {
+  .footer-title {
+    margin-left: 30px;
+  }
 }
 @media screen and (min-width: 480px) {
   .footer-title {
@@ -1025,7 +1045,13 @@ textarea {
   padding: 0 16px;
   outline: transparent;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 320px) {
+  .input-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
   .input-text {
     width: 450px;
     margin-bottom: 20px;
@@ -1086,6 +1112,16 @@ textarea {
   height: 21px;
   color: #FFFFFF;
 }
+@media screen and (min-width: 320px) {
+  .address {
+    margin-left: 38px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .address {
+    margin-left: 10px;
+  }
+}
 @media screen and (max-width: 1199px) {
   .address {
     justify-content: center;
@@ -1105,6 +1141,16 @@ textarea {
   height: 21px;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 320px) {
+  .text-email {
+    margin-left: 80px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .text-email {
+    margin-left: 50px;
+  }
 }
 
 .text-email {
@@ -1127,6 +1173,17 @@ textarea {
   height: 21px;
   color: rgba(255, 255, 255, 0.6);
 }
+@media screen and (min-width: 320px) {
+  .text-telephone {
+    margin-left: 90px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .text-telephone {
+    margin-left: 60px;
+  }
+}
+
 .text-telephone:hover,
 .text-telephone:focus {
   color: #2196f3;
@@ -1155,6 +1212,11 @@ textarea {
 
 .join {
   margin-left: 70px;
+}
+@media screen and (min-width: 320px) {
+  .join {
+    margin-left: 45px;
+  }
 }
 @media screen and (min-width: 480px) {
   .join {

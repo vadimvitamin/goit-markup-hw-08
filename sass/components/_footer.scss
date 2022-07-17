@@ -153,7 +153,11 @@
   
   .join {
     margin-left: 70px;
+    @media screen and (min-width:480px) {
+      margin-left: 18px;
+    }
     @media screen and  (max-width:1199px) {
+      padding-top: 60px;
       margin-bottom: 60px;
     }
   }

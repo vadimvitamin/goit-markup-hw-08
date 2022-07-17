@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>студия</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
     />
 
     <link
@@ -21,41 +21,51 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body class="page-body">
     <!--ВЕРХНЯЯ ЛИНИЯ-->
     <header class="page-header line">
-      <div class="container">
+      <div class="container header-container">
         <nav class="site-nav">
           <a href="WebStudio" class="site-nav__logo link"
             ><span class="site-nav__blue">Web</span
-            ><span class="site-nav__black">Studio</span></a>
+            ><span class="site-nav__black">Studio</span></a
+          >
           <ul class="nav-list list">
             <li class="nav-list__navigation">
-              <a href="./index.html" class="nav-list__link link current">Студия</a>
+              <a href="./index.html" class="nav-list__link link current"
+                >Студия</a
+              >
             </li>
             <li class="nav-list__navigation">
-              <a href="./portfolio.html" class="nav-list__link link">Портфолио</a>
+              <a href="./portfolio.html" class="nav-list__link link"
+                >Портфолио</a
+              >
             </li>
             <li class="nav-list__navigation">
               <a href="#contacts" class="nav-list__link link">Контакты</a>
             </li>
           </ul>
-         <!-- BURGER  MENU -->
-          <!-- <button class="menu-burger" type="button" data-menu-button>
-            <svg width="40" height="40" aria-label="переключатель меню">
-              <use class="icon-menu" href="./images/menu-icon.svg#icon-menu"></use>
-              <use class="icon-close" href="./images/menu-icon.svg#icon-close"></use>
+          <!-- BURGER  MENU -->
+          <button
+            class="menu-burger js-open-menu"
+            type="button"
+            aria-label="переключатель меню"
+          >
+            <svg width="24" height="16">
+              <use
+                class="icon-menu"
+                href="./images/menu-icon.svg#icon-menu"
+              ></use>
             </svg>
-          </button> -->
-         
+          </button>
         </nav>
         <ul class="contacts list">
           <li class="contacts__item">
             <a href="mailto:info@devstudio.com" class="contacts__link link">
-              <svg class="svg-container" width="16" height="12">
+              <svg class="svg-container icon-mail" width="14" height="10">
                 <use
                   href="./images/symbol-optymized.svg#icon-envelope"
                 ></use></svg
@@ -64,7 +74,7 @@
           </li>
           <li class="contacts__item">
             <a href="tel:+380961111111" class="contacts__link link">
-              <svg class="svg-container" width="10" height="16">
+              <svg class="svg-container icon-tel" width="10" height="14">
                 <use
                   href="./images/symbol-optymized.svg#icon-smartphone"
                 ></use></svg
@@ -72,18 +82,9 @@
             >
           </li>
         </ul>
-                  <!-- <ul class="social">
-            <li class="social__item"><a class="social__link" href="">Instagram</a></li>
-            <li class="social__item"><a class="social__link" href="">Twitter</a></li>
-            <li class="social__item"><a class="social__link" href="">Facebook</a></li>
-            <li class="social__item"><a class="social__link" href="">LinkedIn</a></li>
-          </ul> -->
-
-
       </div>
     </header>
     <main class="page-main">
-
       <!-- ШАПКА-->
       <section class="hero">
         <div class="container">
@@ -499,7 +500,7 @@
     </main>
 
     <!--ПОДВАЛ-->
-    <!-- <footer class="page-footer">
+    <footer class="page-footer">
       <div class="container footer-container">
         <div>
           <div class="div-logo">
@@ -516,6 +517,7 @@
             <a class="text-telephone" href="tel:+380961111111">+380961111111</a>
           </address>
         </div>
+
         <div class="join">
           <h2 class="footer-title">ПРИСОЕДИНЯЙТЕСЬ</h2>
           <ul class="footer-soc-links list">
@@ -551,77 +553,165 @@
             </li>
           </ul>
         </div>
-          <div class="email-input">
-            <h2 class="footer-title-send">Подпишитесь на рассылку</h2>
+        
+        <div class="email-input">
+          <h2 class="footer-title-send">Подпишитесь на рассылку</h2>
           <form>
-            <input class="input-text" type="text" placeholder="E-mail">
-            <button class="send-button" type="submit">Подписаться
+            <input class="input-text" type="text" placeholder="E-mail" />
+            <button class="send-button" type="submit">
+              Подписаться
               <svg class="icon-send" width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
           </form>
-          </div>
+        </div>
       </div>
-    </footer> -->
+    </footer>
     <!-- МОДАЛКА -->
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal" >
+      <div class="modal">
         <button class="modal-close-button" data-modal-close>
           <svg class="icon-close">
             <use href="./images/symbol-optymized.svg#icon-close"></use>
           </svg>
         </button>
 
-          <form name="signup_form" autocomplete="on" novalidate>
-               <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-                <div class="stroke-thumb">
-                 <label class="name-thumb" for="name">Имя</label>
-                  <span class="stroke-name-thumb">
-                    <input class="stroke-name" type="text" name="name" id="name">
-                    <svg class="name-icon" width="18" height="18">
-                      <use href="./images/icons.svg#icon-icon-name"></use>
-                    </svg>    
-                  </span>
-                </div>
+        <form name="signup_form" autocomplete="on" novalidate>
+          <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+          <div class="stroke-thumb">
+            <label class="name-thumb" for="name">Имя</label>
+            <span class="stroke-name-thumb">
+              <input class="stroke-name" type="text" name="name" id="name" />
+              <svg class="name-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-icon-name"></use>
+              </svg>
+            </span>
+          </div>
 
-                 <div class="stroke-thumb">
-                    <label class="name-thumb" for="tel">Телефон</label>
-                      <span class="stroke-name-thumb">
-                        <input class="stroke-name" type="text" name="tel" placeholder="" id="tel">
-                          <svg class="name-icon" width="18" height="18">
-                            <use href="./images/icons.svg#icon-icon-phone"></use>
-                          </svg>
-                     </span>                 
-                  </div>
+          <div class="stroke-thumb">
+            <label class="name-thumb" for="tel">Телефон</label>
+            <span class="stroke-name-thumb">
+              <input
+                class="stroke-name"
+                type="text"
+                name="tel"
+                placeholder=""
+                id="tel"
+              />
+              <svg class="name-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-icon-phone"></use>
+              </svg>
+            </span>
+          </div>
 
-                   <div class="stroke-thumb">
-                     <label class="name-thumb" for="mail">Почта</label>
-                     <span class="stroke-name-thumb">
-                      <input class="stroke-name" type="email" name="mail" placeholder="" id="mail">
-                             <svg class="name-icon" width="18" height="18">
-                              <use href="./images/icons.svg#icon-icon-email"></use>
-                            </svg>  
-                     </span>
-                  </div>
+          <div class="stroke-thumb">
+            <label class="name-thumb" for="mail">Почта</label>
+            <span class="stroke-name-thumb">
+              <input
+                class="stroke-name"
+                type="email"
+                name="mail"
+                placeholder=""
+                id="mail"
+              />
+              <svg class="name-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-icon-email"></use>
+              </svg>
+            </span>
+          </div>
 
-                    <label class="name-thumb">Коментарий</label>
-                    <textarea class="stroke-name-text" name="feedback" rows="5" placeholder="Введите текст"></textarea>
-       <!-- CHECK -->
-              <input class="input-check visuality-hiden " type="checkbox" name="privacy" id="privacy">
-                <label for="privacy" class="check-text">
-                  <span class="text-span">
-                    <svg class="check-icon" width="11" height="8">
-                      <use href="./images/icons.svg#icon-vector-check"></use>
-                    </svg>
-                  </span> Соглашаюсь с рассылкой и принимаю <a class="rules" href="">Условия договора</a>
-              </label>
+          <label class="name-thumb">Коментарий</label>
+          <textarea
+            class="stroke-name-text"
+            name="feedback"
+            rows="5"
+            placeholder="Введите текст"
+          ></textarea>
+          <!-- CHECK -->
+          <input
+            class="input-check visuality-hiden"
+            type="checkbox"
+            name="privacy"
+            id="privacy"
+          />
+          <label for="privacy" class="check-text">
+            <span class="text-span">
+              <svg class="check-icon" width="11" height="8">
+                <use href="./images/icons.svg#icon-vector-check"></use>
+              </svg>
+            </span>
+            Соглашаюсь с рассылкой и принимаю
+            <a class="rules" href="">Условия договора</a>
+          </label>
 
-                  <button class="modal-button-input" type="submit">Отправить</button>
-          </form>
+          <button class="modal-button-input" type="submit">Отправить</button>
+        </form>
       </div>
-    
     </div>
+
+    <!-- BURGER-MENU -->
+
+    <div class="mobile-menu js-menu-container">
+      <button
+        class="menu-burger js-close-menu"
+        type="button"
+        aria-label="переключатель меню"
+      >
+        <svg width="18" height="18">
+          <use
+            class="icon-close"
+            href="./images/menu-icon.svg#icon-close"
+          ></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu-nav list">
+        <li class="mobile-menu-nav-item">
+          <a href="./index.html" class="mobile-menu-nav-link current link"
+            >Студия</a
+          >
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="./portfolio.html" class="mobile-menu-nav-link link"
+            >Портфолио</a
+          >
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="" class="mobile-menu-nav-link link">Контакты</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-contacts list">
+        <li class="mobile-menu-contacts-item">
+          <a href="" class="mobile-menu-contacts-link current link"
+            >+38 096 111 11 11
+          </a>
+        </li>
+        <li class="mobile-menu-contacts-item">
+          <a href="" class="mobile-menu-contacts-link link">
+            info@devstudio.com
+          </a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-social list">
+        <li class="mobile-menu-social-item">
+          <a class="mobile-menu-social-link link" href="">Instagram</a>
+        </li>
+        <li class="mobile-menu-social-item">
+          <a class="mobile-menu-social-link link" href="">Twitter</a>
+        </li>
+        <li class="mobile-menu-social-item">
+          <a class="mobile-menu-social-link link" href="">Facebook</a>
+        </li>
+        <li class="mobile-menu-social-item">
+          <a class="mobile-menu-social-link link" href="">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

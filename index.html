@@ -175,36 +175,90 @@
           <h2 class="work-title">Чем мы занимаемся</h2>
           <ul class="work-list list">
             <li class="work-list__projects">
-              <img
-                src="./images/image1.jpg"
-                width="370"
-                height="294"
-                alt="печатаем"
-              />
+              <picture>
+                <!-- Зображення для десктопа -->
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="./images/work/work1-x1.jpg 1x, ./images/work/work1-x2.jpg 2x"
+                />
+                <!-- Зображення для планшета -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/work/work1-x1.jpg 1x, ./images/work/work1-x2.jpg 2x"
+                />
+                <!-- Зображення для мобільних девайсів -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/work/work1-x1.jpg 1x, ./images/work/work1-x2.jpg 2x"
+                />
+                <img
+                  class="team-image"
+                  src="./images/image1.jpg"
+                  alt="CEO & Co-Founder of the company"
+                  loading="lazy"
+                />
+              </picture>
+
               <div class="thumb">
                 <p class="add-text">ДЕСКТОПТНЫЕ ПРИЛОЖЕНИЯ</p>
               </div>
             </li>
 
             <li class="work-list__projects">
-              <img
-                src="./images/image2.jpg"
-                width="370"
-                height="294"
-                alt="держим телефон"
-              />
+              <picture>
+                <!-- Зображення для десктопа -->
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="./images/work/work2-x1.jpg 1x, ./images/work/work2-x2.jpg 2x"
+                />
+                <!-- Зображення для планшета -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/work/work2-x1.jpg 1x, ./images/work/work2-x2.jpg 2x"
+                />
+                <!-- Зображення для мобільних девайсів -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/work/work2-x1.jpg 1x, ./images/work/work2-x2.jpg 2x"
+                />
+                <img
+                  class="team-image"
+                  src="./images/image2.jpg"
+                  alt="CEO & Co-Founder of the company"
+                  loading="lazy"
+                />
+              </picture>
+ 
               <div class="thumb">
                 <p class="add-text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
               </div>
             </li>
 
             <li class="work-list__projects">
-              <img
-                src="./images/image3.jpg"
-                width="370"
-                height="294"
-                alt="держим планшет"
-              />
+              <picture>
+                <!-- Зображення для десктопа -->
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="./images/work/work3-x1.jpg 1x, ./images/work/work3-x2.jpg 2x"
+                />
+                <!-- Зображення для планшета -->
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/work/work3-x1.jpg 1x, ./images/work/work3-x2.jpg 2x"
+                />
+                <!-- Зображення для мобільних девайсів -->
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/work/work1-x3.jpg 1x, ./images/work/work3-x2.jpg 2x"
+                />
+                <img
+                  class="team-image"
+                  src="./images/image3.jpg"
+                  alt="CEO & Co-Founder of the company"
+                  loading="lazy"
+                />
+              </picture>
+ 
               <div class="thumb">
                 <p class="add-text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
               </div>
@@ -221,12 +275,30 @@
             <li class="workers__element">
               <article class="workers__card-workers">
                 <div class="photo">
-                  <img
-                    src="./images/product_designer.jpg"
-                    width="270"
-                    height="260"
-                    alt="product designer"
-                  />
+                  <picture>
+                    <!-- Зображення для десктопа -->
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="./images/team/team-desktop1-x1.jpg 1x, ./images/team/team-desktop1-x2.jpg 2x"
+                    />
+                    <!-- Зображення для планшета -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./images/team/team-tablet1-x1.jpg 1x, ./images/team/team-tablet1-x2.jpg 2x"
+                    />
+                    <!-- Зображення для мобільних девайсів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./images/team/team-mob1-x1.jpg 1x, ./images/team/team-mob1-x2.jpg 2x"
+                    />
+                    <img
+                      class="team-image"
+                      src="./images/product_designer.jpg"
+                      alt="CEO & Co-Founder of the company"
+                      loading="lazy"
+                    />
+                  </picture>
+         
                 </div>
 
                 <h2 class="specifics-title-team">Игорь Демьяненко</h2>
@@ -275,12 +347,30 @@
             <li class="workers__element">
               <article class="workers__card-workers">
                 <div class="photo">
-                  <img
-                    src="./images/Frontend_Developer.jpg"
-                    width="270"
-                    height="260"
-                    alt="Frontend Developer"
-                  />
+                  <picture>
+                    <!-- Зображення для десктопа -->
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="./images/team/team-desktop2-x1.jpg 1x, ./images/team/team-desktop2-x2.jpg 2x"
+                    />
+                    <!-- Зображення для планшета -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./images/team/team-tablet2-x1.jpg 1x, ./images/team/team-tablet2-x2.jpg 2x"
+                    />
+                    <!-- Зображення для мобільних девайсів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./images/team/team-mob2-x1.jpg 1x, ./images/team/team-mob2-x2.jpg 2x"
+                    />
+                    <img
+                      class="team-image"
+                      src="./images/Frontend_Developer.jpg"
+                      alt="CEO & Co-Founder of the company"
+                      loading="lazy"
+                    />
+                  </picture>
+
                 </div>
 
                 <h2 class="specifics-title-team">Ольга Репина</h2>
@@ -330,12 +420,30 @@
             <li class="workers__element">
               <article class="workers__card-workers">
                 <div class="photo">
-                  <img
-                    src="./images/Marketing.jpg"
-                    width="270"
-                    height="260"
-                    alt="Marketing"
-                  />
+                  <picture>
+                    <!-- Зображення для десктопа -->
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="./images/team/team-desktop3-x1.jpg 1x, ./images/team/team-desktop3-x2.jpg 2x"
+                    />
+                    <!-- Зображення для планшета -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./images/team/team-tablet3-x1.jpg 1x, ./images/team/team-tablet3-x2.jpg 2x"
+                    />
+                    <!-- Зображення для мобільних девайсів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./images/team/team-mob3-x1.jpg 1x, ./images/team/team-mob3-x2.jpg 2x"
+                    />
+                    <img
+                      class="team-image"
+                      src="./images/Marketing.jpg"
+                      alt="CEO & Co-Founder of the company"
+                      loading="lazy"
+                    />
+                  </picture>
+
                 </div>
 
                 <h2 class="specifics-title-team">Николай Тарасов</h2>
@@ -385,12 +493,30 @@
             <li class="workers__element">
               <article class="workers__card-workers">
                 <div class="photo">
-                  <img
-                    src="./images/UI_Designer.jpg"
-                    width="270"
-                    height="260"
-                    alt="UI Designer"
-                  />
+                  <picture>
+                    <!-- Зображення для десктопа -->
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="./images/team/team-desktop4-x1.jpg 1x, ./images/team/team-desktop4-x2.jpg 2x"
+                    />
+                    <!-- Зображення для планшета -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="./images/team/team-tablet4-x1.jpg 1x, ./images/team/team-tablet4-x2.jpg 2x"
+                    />
+                    <!-- Зображення для мобільних девайсів -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="./images/team/team-mob4-x1.jpg 1x, ./images/team/team-mob4-x2.jpg 2x"
+                    />
+                    <img
+                      class="team-image"
+                      src="./images/UI_Designer.jpg"
+                      alt="CEO & Co-Founder of the company"
+                      loading="lazy"
+                    />
+                  </picture>     
+              
                 </div>
 
                 <h2 class="specifics-title-team">Михаил Ермаков</h2>

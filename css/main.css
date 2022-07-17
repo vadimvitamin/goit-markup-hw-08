@@ -64,8 +64,6 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
-  outline-offset: -2px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -1280,6 +1278,10 @@ textarea {
   position: absolute;
   top: 10px;
   right: 15px;
+}
+.menu-burger.js-close-menu:hover, .menu-burger.js-close-menu :focus {
+  color: #188ce8;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu {

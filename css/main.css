@@ -1148,6 +1148,11 @@ textarea {
     justify-content: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .address {
+    margin-left: 0;
+  }
+}
 
 .text-email {
   display: block;
@@ -1171,6 +1176,11 @@ textarea {
 @media screen and (min-width: 480px) {
   .text-email {
     margin-left: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text-email {
+    margin-left: 0;
   }
 }
 
@@ -1207,6 +1217,11 @@ textarea {
 @media screen and (max-width: 767px) {
   .text-telephone {
     padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text-telephone {
+    margin-left: 0;
   }
 }
 

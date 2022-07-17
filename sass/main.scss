@@ -1,7 +1,3 @@
-// Layout
-@import './layout/header';
-@import './layout/hero';
-
 // Utils
 @import './utils/vars';
 @import './utils/hidden';
@@ -21,3 +17,10 @@
 @import './components/modal';
 @import './components/footer';
 @import './components/burger-menu';
+
+// Layout
+@import './layout/header';
+@import './layout/hero';
+@import './layout/work';
+
+

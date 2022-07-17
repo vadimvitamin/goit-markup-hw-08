@@ -1,28 +1,23 @@
 .page-body {
-    background-color: var(--white-text-color);
-    font-family: 'Roboto';
-    color: var(--first-text-color);
-  }
-
-  .section-padding-top {
-    padding-top: 94px;
-    @media screen and (max-width:1199px) {
-      padding-top: 60px;
-      
-    }
-  }
-  .section {
-    padding-bottom: 94px;
-   @media screen and (max-width:1199px) {
-    padding-bottom: 60px;
-   }
-  }
-.general-section {
-@media screen and (min-width:1200px) {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 94px;
+  background-color: var(--white-text-color);
+  font-family: "Roboto";
+  color: var(--first-text-color);
 }
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  @media screen and (max-width: 1199px) {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+.general-section {
+  @media screen and (min-width: 1200px) {
+    // margin-left: auto;
+    // margin-right: auto;
+    // padding-left: 15px;
+    // padding-right: 15px;
+    // padding-bottom: 94px;
+  }
 }

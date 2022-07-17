@@ -10,13 +10,13 @@
     padding-top: 118px;
     background-position: center;
     .hero {
-      @media screen and (min-width:480px) {
+      @media screen and (min-width: 480px) {
 
         background-position: center;
       }
     }
 
-    @media screen and (min-width:1200px) {
+    @media screen and (min-width: 1200px) {
       padding-bottom: 200px;
     padding-top: 200px;
     }

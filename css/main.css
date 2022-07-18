@@ -1163,6 +1163,12 @@ textarea {
   top: 10px;
   right: 15px;
 }
+.menu-burger:hover {
+  fill: #2196f3;
+}
+.menu-burger:focus {
+  fill: #2196f3;
+}
 
 .icon-menu:hover {
   fill: #2196f3;

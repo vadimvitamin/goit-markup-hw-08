@@ -17,6 +17,12 @@
     top: 10px;
     right: 15px;
   }
+  &:hover {
+    fill: #2196f3;
+  }
+  &:focus {
+    fill: #2196f3;
+  }
 }
 .icon-menu:hover {
   fill: #2196f3;

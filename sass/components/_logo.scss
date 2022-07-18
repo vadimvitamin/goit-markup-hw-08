@@ -2,35 +2,39 @@
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19em;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
+  // letter-spacing: 0.03em;
   color: var(--blue-text-color);
   text-decoration: none;
   padding-top: 16px;
   padding-bottom: 16px;
 }
 .div-logo {
-  @media screen and (min-width:320px) {
-    margin-left: 50px;
-  }
+  // @media screen and (min-width:320px) {
+  //   margin-left: 50px;
+  // }
   @media screen and (min-width:480px) {
-    margin-left: 0;
-  }
-  @media screen and (max-width: 1199px) {
-    display: flex;
     justify-content: center;
+    display: inline-flex;
+    align-items: center;
   }
+  // @media screen and (max-width: 1199px) {
+  //   display: flex;
+  //   justify-content: center;
+  // }
 }
 .page-footer__logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19em;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
+  // letter-spacing: 0.03em;
   color: var(--blue-text-color);
   text-decoration: none;
-  @media screen and (min-width: 480px) {
-  }
+  // @media screen and (min-width: 480px) {
+  //   justify-content: center;
+  //   align-items: center;
+  // }
 }
 
 .site-nav__blue {

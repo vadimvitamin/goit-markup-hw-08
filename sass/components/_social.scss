@@ -42,9 +42,9 @@
   .footer-soc-links {
     display: flex;
     justify-content: center;
-    @media screen and (max-width:1199px) {
-      justify-content: center;
-    }
+    // @media screen and (max-width:1199px) {
+    //   justify-content: center;
+    // }
     }
     
     .footer-item-icons:not(:last-child) {

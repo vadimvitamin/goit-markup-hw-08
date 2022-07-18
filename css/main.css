@@ -1140,7 +1140,7 @@ textarea {
     margin-left: 70px;
     text-align: start;
     margin: 0;
-    margin-left: 70px;
+    margin-left: auto;
   }
 }
 

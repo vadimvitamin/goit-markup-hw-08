@@ -1164,6 +1164,20 @@ textarea {
   right: 15px;
 }
 
+.icon-menu:hover {
+  fill: #2196f3;
+}
+.icon-menu:hover:focus {
+  fill: #2196f3;
+}
+
+.icon-close:hover {
+  fill: #2196f3;
+}
+.icon-close:hover:focus {
+  fill: #2196f3;
+}
+
 .mobile-menu {
   display: flex;
   flex-direction: column;

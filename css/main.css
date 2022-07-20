@@ -916,6 +916,7 @@ textarea {
 }
 
 .modal {
+  overflow-y: scroll;
   width: 528px;
   padding: 40px;
   background-color: #FFFFFF;
@@ -932,6 +933,11 @@ textarea {
 @media screen and (min-width: 320px) {
   .modal {
     max-width: calc(100% - 30px);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    position: fixed;
   }
 }
 

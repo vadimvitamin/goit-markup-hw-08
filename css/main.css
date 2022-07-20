@@ -916,7 +916,6 @@ textarea {
 }
 
 .modal {
-  overflow-y: scroll;
   width: 528px;
   padding: 40px;
   background-color: #FFFFFF;
